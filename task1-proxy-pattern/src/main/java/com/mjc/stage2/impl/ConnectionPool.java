@@ -52,10 +52,10 @@ public class ConnectionPool {
     }
 
     public int getFreeConnectionsCount() {
-        return freeConnections.size();
+        return this.usedConnections.size();
     }
 
     public int getUsedConnectionsCount() {
-        return usedConnections.size();
+        return this.usedConnections.size();
     }
 }

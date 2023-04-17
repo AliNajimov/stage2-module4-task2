@@ -4,6 +4,7 @@ package com.mjc.stage2.impl;
 import com.mjc.stage2.Connection;
 
 public class ProxyConnection implements Connection {
+
     private RealConnection realConnection;
 
     public ProxyConnection(RealConnection realConnection) {
