@@ -56,6 +56,6 @@ public class ConnectionPool {
     }
 
     public int getUsedConnectionsCount() {
-        return this.usedConnections.size();
+        return usedConnections.size() * (-1);
     }
 }
